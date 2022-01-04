@@ -1,4 +1,4 @@
-@import url("fonts.css");
+@import url("fonts/fonts.css");
 
 * {
   font-family: 'Futura';
@@ -30,10 +30,23 @@ h1 {
 }
 
 .item div{
+  align-self: flex-start;
   width: 80%;  
   padding:15px
 }
 
 .item img {
   align-self: flex-start;
+}
+
+footer {
+  display:inline-flex 
+}
+
+footer p{
+  margin:10px
+}
+
+.copy {
+  text-align:right;
 }
